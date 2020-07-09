@@ -8,7 +8,7 @@ Helpers kit for scss / sass based on webpack
 
 > `@import "./src/styles/core.scss"` in your scss, or copy folder `./src/styles` in project styles
 
-### Extended ese:
+### Extended use:
 
 ✍ Run installation dependencies.<br />
 
