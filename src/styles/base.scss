@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  font-family: $global-font-family;
+
+  &[disabled] {
+    pointer-events: none;
+  }
+}
+
+body {
+  font-family: $global-font-family;
+  color: $global-text-color;
+  font-size: $global-font-size;
+  letter-spacing: $global-letter-spacing;
+  background: $global-background;
+  font-weight:  $global-font-weight;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  margin: 0;
+}
+
+::selection, 
+::-moz-selection {
+  color: $global-selection-color;
+  background: rgba($global-selection-background, 0.7);
+}
+
+#root {
+  overflow: hidden;
+}
+
+a {
+  color: $global-text-color;
+  text-decoration: none;
+
+  &:hover, &:active, &:focus {
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+// Underline
+
+.underbar a,
+a.underbar {
+  position: relative;
+  text-decoration: none;
+  display: inline;
+  color: inherit;
+
+  transition: all .3s ease;
+}
+
+.underbar a::after,
+a.underbar::after {
+  position: absolute;
+  background: rgba($accent, 0.7);
+  content: '';
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  transition: all .3s ease;
+}
+
+.underbar .uk-active a::after {
+  width: 100%;
+}
+
+.underbar a:hover::after,
+a.underbar:hover::after {
+  width: 100%;
+}

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,800,900&display=swap&subset=latin-ext");
+
+// Color system
+
+$white: #fff !default;
+$black: #000 !default;
+$gray: #393939 !default;
+$indigo: #36377a !default;
+$purple: #5c5edc !default;
+$red: #ee6058 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #28a745 !default;
+
+$colors: (
+  "indigo": $indigo,
+  "purple": $purple,
+  "orange": $orange,
+  "red": $red,
+  "yellow": $yellow,
+  "green": $green,
+  "white": $white,
+  "gray": $gray,
+) !default;
+
+$primary: $red !default;
+$secondary: $purple !default;
+$accent: $orange !default;
+$success: $green !default;
+$info: $indigo !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: #ebecf0 !default;
+$dark: $gray !default;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+) !default;
+
+$regular: 400 !default;
+$semi-bold: 500 !default;
+$bold: 500 !default;
+
+$opacity-1: 0.1 !default;
+$opacity-2: 0.2 !default;
+$opacity-3: 0.3 !default;
+$opacity-9: 0.9 !default;
+
+$shadow: 0px 4px 10px rgba($gray, 0.05) !default;
+
+$global-font-family: "Poppins", "Segoe UI", "Roboto", "Ubuntu", "sans-serif" !default;
+$global-text-color: var(--dark) !default;
+$global-font-size: 16px !default;
+$global-font-weight: $regular !default;
+$global-letter-spacing: normal !default;
+$global-background: var(--light) !default;
+$global-selection-color: $white !default;
+$global-selection-background: $primary !default;
+
+$gragient-pink: linear-gradient(45deg, #fe80a1 0%, #fb9fa3 100%);
+$gragient-green: linear-gradient(45deg, #78f0b6 0%, #94ebb0 100%);
+$gragient-blue: linear-gradient(45deg, #3a83e1 0%, #2fa3e1 100%);
+$gragient-violet: linear-gradient(45deg, #8f5cff 0%, #763eec 100%);
+$gragient-orenge: linear-gradient(45deg, #f98656 0%, #fe336d 100%);
+
+$btn-upload-back-wave: var(--btn-upload-back-wave);
+$btn-upload-front-wave: var(--btn-upload-front-wave);
+$btn-upload-border: var(--btn-upload-front-wave);
+$btn-upload-border-active: var(--btn-upload-border-active);
