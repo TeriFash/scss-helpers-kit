@@ -1,27 +1,20 @@
-#  Frontend scss helpers kit
+## Frontend styles helpers kit
 
-Helpers kit for scss/sass based on webpack
+Helpers kit for scss / sass based on webpack
 
+✍ Run installation dependencies.<br />
 
-### Installation
+> `npm install` or `yarn install` 
 
-```
-npm install
-```
+🏃 Start Dev Server environment.<br />
 
-### Start Dev Server
+> `npm start` or `yarn start`
 
-```
-npm start
-```
+🎁 Build production version.<br />
 
-### Build Prod Version
+> `npm build` or `yarn build`
 
-```
-npm run build
-```
-
-### Features:
+🚚 Features:
 
 * ES6 Support via [babel](https://babeljs.io/) (v7)
 * SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
