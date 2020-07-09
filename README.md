@@ -6,7 +6,7 @@ Helpers kit for scss / sass based on webpack
 
 > `git clone https://github.com/TeriFash/scss-helpers-kit.git` in your folder.<br />
 
-> `@import "./src/styles/index.scss"` in your scss, or copy folder `./src/styles` in project styles
+> `@import "./src/styles/main.scss"` in your scss, or copy folder `./src/styles` in project styles
 
 ### Extended ese:
 
